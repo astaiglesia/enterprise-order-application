@@ -1,11 +1,14 @@
-import './assets/styles.css';
+import React from "react";
+import "./assets/styles.scss";
 
+import MainContainer from "./components/MainContainer/MainContainer";
+
+
+// wrap MainContainer with context provider
 function App() {
   return (
-    <div className="App">
-      "ZZ Enterprise"
-    </div>
-  );
+    <MainContainer/>
+  )
 }
 
 export default App;
