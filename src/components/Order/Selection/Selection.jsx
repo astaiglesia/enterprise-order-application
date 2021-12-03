@@ -1,12 +1,11 @@
-import "./CreditForm.scss";
+import "./Selection.scss";
 
-const CreditForm = () => {
+const ItemSelection = () => {
   return (
-    // add form fields
-    <div className="credit-form">
-      Card On File
+    <div className="draft-entry">
+      insert search field, dropdowns, button
     </div>
   )
 }
 
-export default CreditForm;
+export default ItemSelection;

@@ -1,12 +1,11 @@
-import "./CreditForm.scss";
+import "./Subtotal.scss";
 
-const CreditForm = () => {
+const Subtotal = () => {
   return (
-    // add form fields
-    <div className="credit-form">
-      Card On File
+    <div className="subtotal">
+      insert text, sum of items and button for saving draft
     </div>
   )
 }
 
-export default CreditForm;
+export default Subtotal;
