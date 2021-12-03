@@ -2,7 +2,16 @@
   border: thin solid red;
   width: 50%;
   display: flex;
+  flex-flow: row wrap;
+
+  list-style: none;
 
   // provide active state styling to nav bar
+  // center and style links
+  li {
+    border: thin solid black;
+    flex: 1;
 
+  }
+  
 }
