@@ -1,3 +1,7 @@
+h1 {
+  border: 3px solid black;
+  padding: 25px;
+}
 .edit-client {
   border: thin dashed purple;
   margin-left: 5%;
@@ -5,4 +9,5 @@
 
   display: flex;
   flex-flow: row wrap;
+
 }

@@ -2,17 +2,20 @@
 
 import "./ClientContainer.scss";
 
-import ClientForm from "./ClientForm";
-import BillingForm from "./BillingForm";
-import CreditForm from "./CreditForm";
+import ClientForm from "./ClientForm/ClientForm";
+import BillingForm from "./BillingForm/BillingForm";
+import CreditForm from "./CreditForm/CreditForm";
 
 const ClientContainer = () => {
   return (
-    <section className="edit-client">
-      <ClientForm/>
-      <BillingForm/>
-      <CreditForm/>
-    </section>
+    <div>
+      <h1>Enter Client Info</h1>
+      <section className="edit-client">
+        <ClientForm/>
+        <BillingForm/>
+        <CreditForm/>
+      </section>
+    </div>
   )
 }
 
