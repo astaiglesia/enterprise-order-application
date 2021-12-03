@@ -11,8 +11,10 @@ const MainContainer = () => {
   return (
     <div className="main-container">
       <Header/>
-      <ClientContainer/>
-      <Order/>
+      <main>
+        <ClientContainer/>
+        <Order/>
+      </main>
       <Footer/>
     </div>
   )

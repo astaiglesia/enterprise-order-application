@@ -1,3 +1,4 @@
+import OrderList from "./List/OrderList";
 import "./Order.scss"
 
 const Order =() => {
@@ -5,6 +6,7 @@ const Order =() => {
     <div>
       <h1>Product Selection</h1>
       <section className="order-container">
+        <OrderList/>
       </section>
     </div>
   )
