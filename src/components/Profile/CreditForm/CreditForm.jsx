@@ -4,7 +4,7 @@ const CreditForm = () => {
   return (
     // add form fields
     <div className="credit-form">
-      placeholder
+      Card On File
     </div>
   )
 }

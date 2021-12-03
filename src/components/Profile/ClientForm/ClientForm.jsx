@@ -4,7 +4,7 @@ const ClientForm = () => {
   return (
     // add form fields
     <div className="client-form">
-      placeholder
+      Client Profile
     </div>
   )
 }

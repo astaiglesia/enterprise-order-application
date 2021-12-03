@@ -4,7 +4,7 @@ const BillingForm = () => {
   return (
     // add form fields
     <div className="billing-form">
-      placeholder
+      Billing Information
     </div>
   )
 }
