@@ -3,8 +3,9 @@ import "./BillingForm.scss";
 const BillingForm = () => {
   return (
     // add form fields
-    <div className="billing-form">
-      Billing Information
+    <div className="form billing-form">
+      <div className="form-heading font-face-grotesque">Billing Information</div>
+      
     </div>
   )
 }

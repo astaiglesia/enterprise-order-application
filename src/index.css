@@ -5,6 +5,13 @@
   font-weight: normal;
   }
 
+@font-face {
+  font-family: "basis-grotesque-regular-pro";
+  src: local("basis-grotesque-regular-pro"),
+    url("./assets/fonts/basis-grotesque-regular-pro.woff") format("truetype");
+  font-weight: normal;
+}
+
 body {
   margin: 0;
   font-family: "OrLemmen-Light";

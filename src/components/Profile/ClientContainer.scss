@@ -11,12 +11,50 @@
   }
 
   .edit-client {
-    border: thin dashed purple;
-    margin-left: 5%;
-    margin-right: 5%;
+    // border: thick dashed purple;
+    padding: 20px 35px;
   
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
   
+    .form-heading {
+      padding-bottom: 10px;
+      border-bottom: thin solid black;
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: 300;
+    }
+  
+    .form {
+      width: 32%;
+      min-height: 250px;
+      
+      .input-wrapper {
+        // border: thin solid red;
+        margin-bottom: 10px;
+      }
+
+      input, label {
+        display: block;
+      }
+  
+      label {
+        font-size: 12px;
+      }
+  
+      input {
+        width: 97%;
+        height: 36px;
+        padding-left: 10px;
+      }
+      ::placeholder {
+        color: lightgray;
+        font-size: 16px;
+      }
+    }
+    
+    
   }
+
 }

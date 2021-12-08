@@ -5,6 +5,7 @@ import './assets/fonts/OrLemmen-Light.woff';
 import './assets/fonts/OrLemmen-Light.woff2';
 import './assets/fonts/OrLemmen-LightItalic.woff';
 import './assets/fonts/OrLemmen-LightItalic.woff2';
+import './assets/fonts/basis-grotesque-regular-pro.woff';
 import App from './App.jsx';
 
 
