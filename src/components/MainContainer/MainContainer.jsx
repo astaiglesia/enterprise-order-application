@@ -2,7 +2,7 @@ import "./MainContainer.scss";
 
 import Header from "../Header/Header";
 import ClientContainer from "../Profile/ClientContainer";
-import Order from "../Order/Order";
+import OrderContainer from "../Order/Order";
 import Footer from "../Footer/Footer";
 
 // add context / state management 
@@ -13,7 +13,7 @@ const MainContainer = () => {
       <Header/>
       <main>
         <ClientContainer/>
-        <Order/>
+        <OrderContainer/>
       </main>
       <Footer/>
     </div>

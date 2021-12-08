@@ -1,23 +1,22 @@
 .client-container {
-  border: 3px solid blue;
+  border: 3px solid black;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 
   h1 {
-    // border: 3px solid black;
+    border-bottom: 3px solid black;
     padding-left: 35px;
-    margin-top: none;
+    padding-bottom: 20px;
   }
 
-}
-
-.edit-client {
-  border: thin dashed purple;
-  margin-left: 5%;
-  margin-right: 5%;
-
-  display: flex;
-  flex-flow: row wrap;
-
+  .edit-client {
+    border: thin dashed purple;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+    display: flex;
+    flex-flow: row wrap;
+  
+  }
 }

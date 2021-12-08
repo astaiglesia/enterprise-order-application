@@ -1,15 +1,21 @@
-h1 {
-  border: 3px solid black;
-  padding: 25px;
-}
 .order-container {
-  border: thin dashed purple;
-  margin-left: 5%;
-  margin-right: 5%;
+  border: 3px solid black;
   
-  min-height: 400px;
-
-  display: flex;
-  flex-direction: column;
-
+  h1 {
+    border-bottom: 3px solid black;
+    padding-left: 35px;
+    padding-bottom: 20px;
+  }
+  
+  .item-entry {
+    border: thin dashed purple;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    min-height: 400px;
+  
+    display: flex;
+    flex-direction: column;
+  
+  }
 }

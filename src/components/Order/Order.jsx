@@ -4,11 +4,11 @@ import OrderList from "./List/OrderList";
 import Subtotal from "./Subtotal/Subtotal";
 import ItemSelection from "./Selection/Selection";
 
-const Order =() => {
+const OrderContainer =() => {
   return (
-    <div>
+    <div className="order-container">
       <h1>Product Selection</h1>
-      <section className="order-container">
+      <section className="item-entry">
         <ItemSelection/>
         <OrderList/>
         <Subtotal/>
@@ -17,4 +17,4 @@ const Order =() => {
   )
 }
 
-export default Order;
+export default OrderContainer;
