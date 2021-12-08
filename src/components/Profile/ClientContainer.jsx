@@ -8,7 +8,7 @@ import CreditForm from "./CreditForm/CreditForm";
 
 const ClientContainer = () => {
   return (
-    <div>
+    <div className="client-container">
       <h1>Enter Client Info</h1>
       <section className="edit-client">
         <ClientForm/>

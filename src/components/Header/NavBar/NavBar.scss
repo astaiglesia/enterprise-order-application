@@ -1,6 +1,6 @@
 .topnav {
-  border: thin solid red;
-  width: 50%;
+  // border: thin solid red;
+  width: 35%;
   display: flex;
   flex-flow: row wrap;
 
@@ -9,9 +9,21 @@
   // provide active state styling to nav bar
   // center and style links
   li {
-    border: thin solid black;
-    flex: 1;
+    // border: thin solid black;
+    margin-right: 25px;
 
+  }
+
+  a {
+    color: inherit;
+
+  }
+  a:link {
+    text-decoration: none;
+  }
+  .active {
+    font-style: italic;
+    text-decoration: underline !important;
   }
   
 }
