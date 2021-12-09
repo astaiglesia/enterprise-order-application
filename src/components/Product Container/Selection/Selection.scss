@@ -1,17 +1,18 @@
 .item-entry {
-  border: thin solid green;
-  height: 200px;
+  border-bottom: 3px solid black;
+  height: 160px;
   padding-bottom: 20px;
   
   display: flex;
   flex-flow: row;
+  justify-content: space-between;
   
   .selection-wrapper {
-    border: thin solid blue;
+    // border: thin solid blue;
     display: flex;
     flex-direction: column;
     
-    width: 75%;
+    width: 70%;
     padding-left: 35px;
 
     .search-wrapper {
@@ -31,11 +32,31 @@
         padding: 10px;
         border: none;
       }
+    }
+
+    .dropdown-wrapper {
+      form {
+        border-bottom: thin solid black;
+        margin: 30px 0px;
+        padding: 15px 0px 5px 0px;
+        height: 36px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        // align-items: center;
   
-      ::placeholder {
-        // color: lightgray;
-        font-size: 12px;
+        .selection-dropdown > select {
+         border: none; 
+         width: 150px;
+         font-size: 14px;
+        }
+
       }
+    }
+
+    ::placeholder {
+      // color: lightgray;
+      font-size: 12px;
     }
   }
 
@@ -43,10 +64,24 @@
     border: thin solid blue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
-
+    margin: 30px 0px;
     width: 25%;
+
+    .add-button {
+      width: 280px;
+      height: 60px;
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+
+    }
   }
 
 
