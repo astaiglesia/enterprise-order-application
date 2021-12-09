@@ -6,13 +6,13 @@ import ItemSelection from "./Selection/Selection";
 
 const ProductContainer =() => {
   return (
-    <div className="order-container">
+    <div className="product-container">
       <h1>Product Selection</h1>
-      <section className="item-entry">
-        <ItemSelection/>
+      <ItemSelection/>
+      <section className="item-list">
         <OrderList/>
-        <Subtotal/>
       </section>
+      <Subtotal/>
     </div>
   )
 }
