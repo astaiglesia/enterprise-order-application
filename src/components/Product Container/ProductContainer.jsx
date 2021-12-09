@@ -1,10 +1,10 @@
-import "./Order.scss";
+import "./ProductContainer.scss";
 
 import OrderList from "./List/OrderList";
 import Subtotal from "./Subtotal/Subtotal";
 import ItemSelection from "./Selection/Selection";
 
-const OrderContainer =() => {
+const ProductContainer =() => {
   return (
     <div className="order-container">
       <h1>Product Selection</h1>
@@ -17,4 +17,4 @@ const OrderContainer =() => {
   )
 }
 
-export default OrderContainer;
+export default ProductContainer;
