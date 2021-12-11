@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# OrderDraftingApplication --- under construction!!! please be patient =)
+
+This project is a prototype application solution for ecommerce administrators to draft bulk / custom designed product mix orders for enterprise clients.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
