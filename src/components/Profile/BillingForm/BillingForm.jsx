@@ -3,7 +3,7 @@ import "./BillingForm.scss";
 const BillingForm = () => {
   return (
     <div className="form billing-form font-face-grotesque">
-      <div className="form-heading">Client Profile</div>
+      <div className="form-heading">Billing</div>
       <div className="input-wrapper">
         <label for="contact-name">Contact Name </label>
         <input type="text" name="contact-name" id="contact-name" placeholder="Contact Name" />

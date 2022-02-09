@@ -1,0 +1,11 @@
+.form {
+  border: thin solid red;
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form * {
+  margin: 5px;
+}

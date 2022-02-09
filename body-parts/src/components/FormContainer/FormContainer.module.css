@@ -1,0 +1,9 @@
+.form-container {
+  border: 3px solid blue;
+  
+  margin: 20px 5%;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
